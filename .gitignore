@@ -39,8 +39,3 @@ yarn-error.*
 # generated native folders
 /ios
 /android
-
-# session notes
-INITIAL_SESSION.md
-REGRESSION.md
-TO_DO.md
