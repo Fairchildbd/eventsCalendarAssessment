@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import { Keyboard, StyleSheet, Text, View } from 'react-native';
 
-import { EventList } from '@/screens/EventsScreen/components/EventList';
-import { FeaturedHero } from '@/screens/EventsScreen/components/FeaturedHero';
-import { FilterButton } from '@/screens/EventsScreen/components/FilterButton';
-import { FilterSheet } from '@/screens/EventsScreen/components/FilterSheet';
+import { EventList } from './components/EventList';
+import { FeaturedHero } from './components/FeaturedHero';
+import { FilterButton } from './components/FilterButton';
+import { FilterSheet } from './components/FilterSheet';
 import { Screen } from '@/components/Screen';
 import { colors, spacing, typography } from '@/utils/theme';
 import { useOpenEvent } from '@/hooks/useOpenEvent';

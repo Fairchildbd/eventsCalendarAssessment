@@ -1,4 +1,4 @@
-import { FilterForm } from '@/screens/EventsScreen/components/FilterForm';
+import { FilterForm } from './FilterForm';
 import { useEventFilters } from '@/store/EventFiltersContext';
 
 export function InlineFilters() {

@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-import { BottomSheet } from '@/components/BottomSheet';
+import { BottomSheet } from './BottomSheet';
 import { PrimaryButton } from '@/components/Buttons';
-import { FilterForm } from '@/screens/EventsScreen/components/FilterForm';
+import { FilterForm } from './FilterForm';
 import { colors, spacing, typography } from '@/utils/theme';
 import { useEventCatalog } from '@/store/EventCatalogContext';
 import { useEventFilters } from '@/store/EventFiltersContext';

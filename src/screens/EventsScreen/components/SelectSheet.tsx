@@ -2,7 +2,7 @@ import { Ionicons } from '@expo/vector-icons';
 import { useState } from 'react';
 import { FlatList, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 
-import { BottomSheet } from '@/components/BottomSheet';
+import { BottomSheet } from './BottomSheet';
 import { MIN_TOUCH, colors, radii, spacing, typography } from '@/utils/theme';
 import type { FacetOption } from '@/types/catalog';
 

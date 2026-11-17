@@ -4,14 +4,14 @@ import { FlatList, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { PrimaryButton } from '@/components/Buttons';
-import { Chip } from '@/components/Chip';
+import { Chip } from './components/Chip';
 import { ListSeparator } from '@/components/ListSeparator';
 import { NoticeBox } from '@/components/NoticeBox';
 import { Screen } from '@/components/Screen';
 import { StateView } from '@/components/StateViews';
 import { PricingSummary } from '@/components/PricingSummary';
-import { QuantitySelector } from '@/screens/TicketSelectionScreen/components/QuantitySelector';
-import { TicketRow } from '@/screens/TicketSelectionScreen/components/TicketRow';
+import { QuantitySelector } from './components/QuantitySelector';
+import { TicketRow } from './components/TicketRow';
 import { colors, shadows, spacing, typography } from '@/utils/theme';
 import { SERVICE_FEE_CENTS_PER_TICKET } from '@/utils/demoEvents';
 import { useGoBack } from '@/hooks/useGoBack';

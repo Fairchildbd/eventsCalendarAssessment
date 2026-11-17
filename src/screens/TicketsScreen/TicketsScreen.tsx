@@ -6,7 +6,7 @@ import { ListSeparator } from '@/components/ListSeparator';
 import { NoticeBox } from '@/components/NoticeBox';
 import { Screen } from '@/components/Screen';
 import { StateView } from '@/components/StateViews';
-import { ReservationCard } from '@/screens/TicketsScreen/components/ReservationCard';
+import { ReservationCard } from './components/ReservationCard';
 import { colors, spacing, typography } from '@/utils/theme';
 import { useReservations } from '@/store/ReservationsContext';
 import type { Reservation } from '@/types';

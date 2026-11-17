@@ -2,8 +2,8 @@ import { Ionicons } from '@expo/vector-icons';
 import { memo, useState } from 'react';
 import { Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 
-import { DateRangeField } from '@/screens/EventsScreen/components/DateControls';
-import { SelectSheet } from '@/screens/EventsScreen/components/SelectSheet';
+import { DateRangeField } from './DateControls';
+import { SelectSheet } from './SelectSheet';
 import { MIN_TOUCH, colors, radii, spacing, typography } from '@/utils/theme';
 import type { DateRange, DateString } from '@/types';
 import type { ContentFilter, EventFilters, FilterOptions } from '@/types/catalog';

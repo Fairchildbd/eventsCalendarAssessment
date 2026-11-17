@@ -6,7 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { CategoryBadge, FeaturedBadge } from '@/components/Badges';
 import { PrimaryButton } from '@/components/Buttons';
-import { Collapsible } from '@/components/Collapsible';
+import { Collapsible } from './components/Collapsible';
 import { EventImage } from '@/components/EventImage';
 import { IconTextRow } from '@/components/IconTextRow';
 import { Screen } from '@/components/Screen';

@@ -11,11 +11,11 @@ import {
   type NativeSyntheticEvent,
 } from 'react-native';
 
-import { ActiveFilterChips } from '@/screens/EventsScreen/components/ActiveFilterChips';
-import { EventCard } from '@/screens/EventsScreen/components/EventCard';
-import { InlineFilters } from '@/screens/EventsScreen/components/InlineFilters';
+import { ActiveFilterChips } from './ActiveFilterChips';
+import { EventCard } from './EventCard';
+import { InlineFilters } from './InlineFilters';
 import { ListSeparator } from '@/components/ListSeparator';
-import { SyncBanner } from '@/screens/EventsScreen/components/SyncBanner';
+import { SyncBanner } from './SyncBanner';
 import { StateView } from '@/components/StateViews';
 import { colors, spacing, typography } from '@/utils/theme';
 import { useEventCatalog } from '@/store/EventCatalogContext';

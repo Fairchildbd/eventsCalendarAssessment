@@ -11,7 +11,7 @@ import { NoticeBox } from '@/components/NoticeBox';
 import { Screen } from '@/components/Screen';
 import { StateView } from '@/components/StateViews';
 import { PricingSummary } from '@/components/PricingSummary';
-import { StepIndicator } from '@/screens/ReviewScreen/components/StepIndicator';
+import { StepIndicator } from './components/StepIndicator';
 import { colors, spacing, typography } from '@/utils/theme';
 import { SERVICE_FEE_CENTS_PER_TICKET } from '@/utils/demoEvents';
 import { useGoBack } from '@/hooks/useGoBack';
