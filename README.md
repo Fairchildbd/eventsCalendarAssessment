@@ -4,6 +4,11 @@ A React Native app built with Expo (SDK 58), Expo Router and TypeScript. It list
 
 Ticket inventory and prices are **fictional**. No real tickets are sold or held.
 
+## Demo
+
+https://github.com/user-attachments/assets/e7a3a78f-bb70-4d2b-ae7a-f30a931326c8
+
+
 ## Run
 
 Xcode is required for the iOS Simulator, and Android Studio is required for the Android Emulator. Alternatively, the app can run on a physical device using Expo Go.
